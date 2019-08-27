@@ -15,5 +15,9 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" name="Maven: uk.co.caprica:vlcj:3.12.1" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:5.2.0" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.jna:jna-platform:5.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
   </component>
 </module>
