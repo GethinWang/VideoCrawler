@@ -10,9 +10,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.5.2</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.2</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>uk.co.caprica</groupId>
@@ -21,15 +22,13 @@
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.5.6</version>
-            <type>jar</type>
+            <artifactId>slf4j-nop</artifactId>
+            <version>1.7.2</version>
         </dependency>
-
         <dependency>
-            <groupId>slf4j-simple</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.5.2</version>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
     </dependencies>
 </project>
