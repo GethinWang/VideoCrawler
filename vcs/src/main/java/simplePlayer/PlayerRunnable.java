@@ -12,6 +12,7 @@ import java.awt.*;
 public class PlayerRunnable {
 
     static {
+        System.out.println("==============================准备播放中==============================");
         String libPath = PlayerRunnable.class.getResource("").getPath().substring(1).replace("target/classes/simplePlayer/","src/main/resources");
         NativeLibrary.addSearchPath(
                 // libvlc.dll和libvlccore的路径
@@ -23,7 +24,7 @@ public class PlayerRunnable {
 
     String url = "";
 
-    void paly() {
+    public void paly() {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
