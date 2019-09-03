@@ -39,7 +39,7 @@ public class Crawler {
                 System.out.println(an);
             }
         }catch (Exception e){
-            System.out.println("ERROR!");
+            System.out.println("ERROR!"+e);
         }
         return ans;
     }
