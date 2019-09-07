@@ -3,13 +3,18 @@
 ，直接运行vcs/src/main/java/Main下的方法即可
 
 播放器效果
+
 ![Image text](https://github.com/GethinWang/VideoCrawler/blob/master/1.JPG)
 
+
 工程目录
+
 ![Image text](https://github.com/GethinWang/VideoCrawler/blob/master/2.JPG)
 
 执行启动类的方法即可
+
 ![Image text](https://github.com/GethinWang/VideoCrawler/blob/master/3.JPG)
+
 第一个方法为播放视频，第二个为下载视频
 
 对应文章地址：
